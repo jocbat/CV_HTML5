@@ -1,0 +1,86 @@
+body
+{
+    background: url('images/fond_jaune.png');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#wrapper
+{
+	width: 1000px;
+    margin: auto;
+	text-align: justify;
+}
+
+#wrapper,#infos_mini,#resume_profil,#resume_xp,#description_profil,#missions, .mission
+{
+	border-style:solid;
+	border-width:1px;
+}
+
+header
+{
+	height:200px;
+	position:relative;
+}
+
+#infos_mini
+{
+	position:absolute;
+	width:25%;
+	top:0px;
+	right:0px;
+	height:180px;
+}
+
+
+#logo_valtech
+{
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+
+#infos_mini ul
+{
+	position:absolute;
+	right:10px;
+	bottom:10px;	
+	margin:5px;
+	text-align:right;
+	list-style-type: none;
+}
+
+#description_profil
+{
+	width:250px;
+	padding:10px;
+	display:inline-block;
+	margin:10px;
+}
+
+#resume_xp
+{
+	padding:10px;
+	display:inline-block;
+	width:655px;
+	vertical-align:top;
+	margin:10px;
+}
+
+td
+{
+	padding:3px 60px 2px 7px;
+	text-align:left;
+}
+
+.mission
+{
+	padding:10px;
+	margin:10px;
+}
+
+
+
+
+

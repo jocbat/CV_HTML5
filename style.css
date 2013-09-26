@@ -30,7 +30,7 @@ header
 	width:25%;
 	top:0px;
 	right:0px;
-	height:180px;
+	height:200px;
 }
 
 
@@ -66,6 +66,18 @@ header
 	width:655px;
 	vertical-align:top;
 	margin:10px;
+}
+
+tr.alt_pair td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+
+tr.alt_odd td 
+{
+color:#000000;
+background-color:gray;
 }
 
 td
